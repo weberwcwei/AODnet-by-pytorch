@@ -17,8 +17,8 @@ from model import AODnet
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--dataset', required=False, default='pix2pix',  help='')
-parser.add_argument('--dataroot', required=False, default='/disk/Wei/AODnet_data/train', help='path to trn dataset')
-parser.add_argument('--valDataroot', required=False, default='/disk/Wei/AODnet_data/val', help='path to val dataset')
+parser.add_argument('--dataroot', required=True, help='path to trn dataset')
+parser.add_argument('--valDataroot', required=True, help='path to val dataset')
 parser.add_argument('--valBatchSize', type=int, default=32, help='input batch size')
 parser.add_argument('--cuda', action='store_true', help='use cuda?')
 parser.add_argument('--lr', type=float, default=1e-4, help='Learning Rate. Default=1e-4')
