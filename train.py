@@ -107,7 +107,7 @@ def train(epoch):
     epoch_loss = 0
     for iteration, batch in enumerate(trainDataloader, 0):
         varIn, varTar = Variable(batch[0]), Variable(batch[1])
-        varIn, varTar = varTar.float(), varIn.float()
+        varIn, varTar = varIn.float(), varTar.float()
 
         if args.cuda:
             varIn = varIn.cuda()
