@@ -1,5 +1,5 @@
 # AOD-Net by Pytorch
-This is an implementation of [AOD-Net : All-in-One Network for Dehazing](https://arxiv.org/abs/1707.06543) on Python3, Pytorch. The model can removal hazy, smoke or even water impurities.
+This project implements the [AOD-Net : All-in-One Network for Dehazing](https://arxiv.org/abs/1707.06543) for image dehazing using Python and PyTorch. The model is capable of removing haze, smoke, and water impurities from images."
 
 The repository includes:
 * Source code of AOD-Net
